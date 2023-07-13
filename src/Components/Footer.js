@@ -4,9 +4,9 @@ import {AiFillFacebook,AiFillTwitterSquare,AiFillYoutube,AiFillGoogleCircle} fro
 
 const Footer = () => {
   return (
-    <>
-        <div>
-           <div><p>Subscribe Newsletter & get Latest News</p></div>
+    <div class="bg-neutral-300 leading-10	">
+        <div class='w-2/5 border-2 border-rose-600 m-auto text-center '>
+           <div class="mt-12 text-xxl"><p>Subscribe Newsletter & get Latest News</p></div>
            <div>
             <input placeholder='Enter you email address'  type='text'/>
            <button>Subscribe</button>
@@ -14,9 +14,8 @@ const Footer = () => {
         </div>
 
         <div>
-            <div>
-             <div>
-              <img src={flightlogo} alt='err'/></div>
+            <div class="">
+             
              <div> <p>Your mind should be stronger  than your feelings.fly !</p></div>
              <div><AiFillFacebook/> <AiFillTwitterSquare/> <AiFillYoutube/> <AiFillGoogleCircle/></div>
                            
@@ -65,7 +64,7 @@ const Footer = () => {
               </div>
         </div>
         
-    </>
+    </div>
   )
 }
 
