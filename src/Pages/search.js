@@ -2,8 +2,10 @@ import React from 'react'
 
 const search = () => {
   return (
-    <div>search</div>
+    <div>
+    
+    </div>
   )
 }
 
-export default search
+export default search 
