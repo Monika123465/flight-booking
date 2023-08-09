@@ -35,10 +35,10 @@ const Travell = () => {
         </div>
 
       </div>
-       <div className='grid grid-cols-2 '>
-       <div > <img className="w-96 rounded-lg h-72" src={leftplane} alt='err'/></div>
-       <div> <img className='w-96 rounded-lg h-72' src={windowsout} alt='err'/></div>
-       <div className='w-96 border-4 ml-36'> <img className='w-96 rounded-lg h-72' src={windowsplane} alt='err'/></div>
+       <div>
+       <div > <img className="w-48 rounded-full h-72" src={leftplane} alt='err'/></div>
+       <div className=''> <img className='w-48 rounded-full h-72' src={windowsout} alt='err'/></div>
+       <div className='w-48  ml-12'> <img className='w-60 rounded-full h-72' src={windowsplane} alt='err'/></div>
        </div>
     </div>
 
