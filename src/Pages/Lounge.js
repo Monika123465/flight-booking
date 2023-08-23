@@ -6,7 +6,7 @@ const Lounge = () => {
   return (
     <>
     {/* Unaccompanied  Minor  Lounge */}
-    <div>
+    <div className='w-4/5 m-auto border-4'>
       <h1>Unaccompanied Minor Lounge</h1>
       <div>
         <div>
@@ -31,8 +31,8 @@ const Lounge = () => {
         </div>
       </div>
       <div>
-        <img src={flightpeople} alt='err'/>
-        <img src={insideflight} alt='err'/>
+        <img className='w-72 h-72 rounded-3xl'   src={flightpeople} alt='err'/>
+        <img className='w-72 h-72' src={insideflight} alt='err'/>
       </div>
     </div>
 
