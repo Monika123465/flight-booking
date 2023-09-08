@@ -9,11 +9,12 @@ import AllRoutes from './Pages/AllRoutes';
 function App() {
   return (
     <div  >
-      <Router>
+      {/* either remove router from here  or remove browser router from index.js both weould be fine. */}
+      
        <Navbar/>
        <AllRoutes/>
        <Footer/>
-   </Router>
+   
     
     </div>
   );

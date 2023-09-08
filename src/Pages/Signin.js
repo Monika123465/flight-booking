@@ -1,30 +1,21 @@
 import React from 'react'
-import { useContext,useState } from 'react'
-import {Navigate,useNavigate} from "react-router-dom"
-import { authContext } from '../Context/Authcontext'
 import signin from "../assets/sign.jpg"
 import google from "../assets/google.png"
 
 
 
 const Signin = () => {
-  const [username,setUsername]=useState('')
-  const [password,setPassword]=useState('')
-  const navigate=useNavigate()
-  const {user,signIn}=useContext(authContext)
-
-  if(user) return <Navigate to="/home"/>
-  return (
+   return (
     <>
-    <div>
-    <div>
+    <div className='w-4/5 border-4  m-auto flex'>
+    <div className='w-2/5 h-48'>
     <img src={signin} alt='err' />
     </div>
-    <div>
+    <div className=''>
       <h1>Welcome Onboard</h1>
       <div>
-        <img src={google} alt='err' />
-        <p>Sign up with your email</p>
+        <img className='w-6' src={google} alt='err' />
+        <button>Sign up with your google</button>
       </div>
       <div>
         <p>or,sign up with your email</p>
