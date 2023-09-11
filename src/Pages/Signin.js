@@ -7,8 +7,8 @@ import google from "../assets/google.png"
 const Signin = () => {
    return (
     <div >
-      <div className='bg-cyan-600 '>
-    <div className='w-3/5  gap-24  m-auto flex pt-48    shadow-lg'>
+      
+    <div className='w-3/5  gap-24  m-auto flex mt-24    shadow-lg'>
     <div className=' mt-12 ml-6'>
     <img className='' src={signin} alt='err' />
     </div>
@@ -38,7 +38,7 @@ const Signin = () => {
     
     </div>
     </div>
-    </div>
+  
   )
 }
 
