@@ -8,7 +8,7 @@ const Signin = () => {
    return (
     <div >
       
-    <div className='w-3/5  gap-24  m-auto flex mt-24    shadow-lg'>
+    <div className='w-3/5  gap-24 mt-24 m-auto flex shadow-lg'>
     <div className=' mt-12 ml-6'>
     <img className='' src={signin} alt='err' />
     </div>
@@ -32,8 +32,8 @@ const Signin = () => {
         <input type='password' placeholder='Enter your password' className='border-2 w-96 mb-4' />
       </div>
       <div className=' text-xl'><p>Agree to terms & conditions</p></div>
-     <div className='border-2 border-cyan-600 w-96 h-12 text-center mb-6 mt-6'> <button >SignUp</button></div>
-     <div className=' flex text-xl gap-2 '><p>Already have an  account ?</p ><button className='text-cyan-600'>Sign in now</button></div>
+     <div className='border-2 border-cyan-600 w-96 h-12 text-center mb-6 mt-6'> <button >SignIn</button></div>
+     <div className=' flex text-xl gap-2 '><p>Don't  have an  account ?</p ><button className='text-cyan-600'>SignUp  now</button></div>
     </div>
     
     </div>

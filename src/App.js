@@ -9,7 +9,7 @@ import AllRoutes from './Pages/AllRoutes';
 function App() {
   return (
     <div  >
-      {/* either remove router from here  or remove browser router from index.js both weould be fine. */}
+      
       
        <Navbar/>
        <AllRoutes/>

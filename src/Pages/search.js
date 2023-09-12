@@ -1,11 +1,11 @@
 import React from 'react'
 
-const search = () => {
+const Search = () => {
   return (
     <div>
-    
+    search anyflight here
     </div>
   )
 }
 
-export default search 
+export default Search 
