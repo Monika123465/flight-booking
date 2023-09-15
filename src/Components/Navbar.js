@@ -19,7 +19,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='h-16   text-xl m-8 mr-24'>
-                  <button className='border-2 border-cyan-600 ml-8'> <Link class='m-8  ' to="/signin">Signin </Link></button>
+                  <button className='border-2 border-cyan-600 ml-8'><Link class='m-8  ' to="/signin">Signin </Link></button>
                    <button className='border-2 border-cyan-600 ml-8'> <Link class='m-8 border-black display:block'>Contact</Link></button>
                 </div>
            </div>

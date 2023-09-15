@@ -23,9 +23,6 @@ const Signup = () => {
       
 
       <div className='  mt-6 mb-2'>
-        <p>Your name*</p>
-        <input type='text' placeholder='Enter your name' className='border-2 w-96 mb-4' />
-
         <p>Email address*</p>
         <input type='text' placeholder='Enter your email' className='border-2 w-96 mb-4' />
 
