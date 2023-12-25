@@ -33,7 +33,7 @@ const Signin = () => {
       <div className=' text-xl'><p>Agree to terms & conditions</p></div>
      <div className='border-2 border-cyan-600 w-96 h-12 text-center mb-6 mt-6'> <button >SignIn</button></div>
      <div className=' flex text-xl gap-2 '><p>Don't  have an  account ?</p ><button className='text-cyan-600'>SignUp  now</button></div>
-     <div className=' flex text-xl gap-2 '><p>Don't  have an  account ?</p ><button className='text-cyan-600'>SignUp  now</button></div>
+     
     </div>
 
 
