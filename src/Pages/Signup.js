@@ -7,7 +7,8 @@ import google from "../assets/google.png"
 
 const Signup = () => {
    return (
-    <div >
+   
+   <div >
       
     <div className='w-3/5  gap-24 mt-24 m-auto flex shadow-lg'>
     <div className=' mt-12 ml-6'>
